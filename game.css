@@ -1,0 +1,27 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(130, 50, 204, 0.25);
+    background-color: #202020;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(138, 86, 235, 10);
+    transform: translateY(-0.35rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #7e57c2;
+    color: #202020;
+    font-weight: 600;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
